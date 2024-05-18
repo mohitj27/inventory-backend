@@ -1,7 +1,7 @@
 
 const mongoose = require("mongoose");
 
-const uri = "mongodb+srv://contacttosagartambe:sagar@123@inventory-db.dysiuzp.mongodb.net/?retryWrites=true&w=majority&appName=Inventory-db";
+const uri = "mongodb://localhost:27017/InventoryManagement";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
