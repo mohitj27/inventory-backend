@@ -24,6 +24,15 @@ const PurchaseSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    DeliveryChallanNo: {
+      type: String,
+      required:false,
+    },
+    GrnNo: {
+      type: String,
+      required:false,
+    }
+
   },
   { timestamps: true }
 );

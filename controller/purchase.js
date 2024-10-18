@@ -9,6 +9,8 @@ const addPurchase = (req, res) => {
     QuantityPurchased: req.body.quantityPurchased,
     PurchaseDate: req.body.purchaseDate,
     TotalPurchaseAmount: req.body.totalPurchaseAmount,
+    DeliveryChallanNo: req.body.deliveryChallanNo,
+    GrnNo: req.body.grnNo,
   });
 
   addPurchaseDetails
